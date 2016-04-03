@@ -1,0 +1,22 @@
+{
+  "name": "material-utilities",
+  "description": "A set of CSS classes & custom properties for Material shadows and opacities",
+	"version": "0.4.2",
+	"author": "Maxime Le Conte des Floris",
+  "license": "MIT",
+  "main": "material-utilities.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlcdf/material-utilities"
+  },
+	"bugs": {
+		"url": "https://github.com/mlcdf/material-utilities/issues"
+	},
+  "keywords": [
+    "Material Design",
+    "opacity",
+    "shadow",
+    "SCSS",
+    "PostCSS"
+  ]
+}

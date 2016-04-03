@@ -1,0 +1,95 @@
+/*
+  CLASSES
+  - Opacity
+  - Shadows
+*/
+
+
+/* Opacities */
+
+.dark-opacity-1{
+  opacity: var(--dark-opacity-1);
+}
+.dark-opacity-2{
+  opacity: var(--dark-opacity-2);
+}
+.dark-opacity-3{
+  opacity: var(--dark-opacity-3);
+}
+.dark-opacity-4{
+  opacity: var(--dark-opacity-4);
+}
+.light-opacity-1{
+  opacity: var(--light-opacity-1);
+}
+.light-opacity-2{
+  opacity: var(--light-opacity-2);
+}
+.light-opacity-3{
+  opacity: var(--light-opacity-3);
+}
+.light-opacity-4{
+  opacity: var(--light-opacity-4);
+}
+
+
+/* Shadows */
+
+.z-transition{
+  transition: var(--z-transition);
+}
+
+.z1{
+  box-shadow: var(--z1);
+}
+
+.z2{
+  box-shadow: var(--z2);
+}
+
+.z3{
+  box-shadow: var(--z3);
+}
+
+.z4{
+  box-shadow: var(--z4);
+}
+
+.z5{
+  box-shadow: var(--z5);
+}
+
+.z6{
+  box-shadow: var(--z6);
+}
+
+.z7{
+  box-shadow: var(--z7);
+}
+
+.z1-hover:hover{
+  box-shadow: var(--z1);
+}
+
+.z2-hover:hover{
+  box-shadow: var(--z2);
+}
+
+.z3-hover:hover{
+  box-shadow: var(--z3);
+}
+.z4-hover:hover{
+  box-shadow: var(--z4);
+}
+
+.z5-hover:hover{
+  box-shadow: var(--z5);
+}
+
+.z6-hover:hover{
+  box-shadow: var(--z6);
+}
+
+.z7-hover:hover{
+  box-shadow: var(--z7);
+}

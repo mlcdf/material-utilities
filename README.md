@@ -9,7 +9,7 @@ Inspired by [colors](https://github.com/mrmrs/colors).
 * Download the [.zip](https://github.com/mlcdf/material-paper/archive/master.zip)
 * NPM: `npm install material-utitilies`
 
-Reminder: Use the `--production` flag to only install the "dependencies" (so without the "devDependencies").
+Reminder: use the `--production` flag to only install the "dependencies" (so without the "devDependencies").
 
 ## Usage
 
@@ -29,17 +29,22 @@ Use the CSS custom property matching the shadow/opacity you want.
   color: var(--dark-opacity-1);
 }
 ```
-Aaaaand that's it!
 
 Note : You'll need PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
 
 ### CSS
 
-Add the following link in your html file.
+Just add the following link in your html.
 ```html
-<link href="path/to/module/material-utilities.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="path/to/module/material-utilities.min.css">
 ```
-And you're ready to go!
+Use the CSS custom property matching the shadow/opacity you want.
+```html
+<button class="z1">Download</button>
+```
+## Dev
+
+Running `npm start` will generate the minified and unminified CSS files in the dist folder.
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)

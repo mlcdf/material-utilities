@@ -1,6 +1,7 @@
 # Material Utilities
 
 A set of CSS custom variables and classes to bring Material shadows and opacities to your project. If you're looking for the Material color palette, head over to https://github.com/shuhei/material-colors.
+
 Inspired by [colors](https://github.com/mrmrs/colors).
 
 ## Install
@@ -8,9 +9,11 @@ Inspired by [colors](https://github.com/mrmrs/colors).
 * Download the [.zip](https://github.com/mlcdf/material-paper/archive/master.zip)
 * NPM: `npm install material-utitilies`
 
+Reminder: Use the `--production` flag to only install the "dependencies" (so without the "devDependencies").
+
 ## Usage
 
-### With PostCSS
+### PostCSS
 
 Import the module.
 ```css
@@ -26,7 +29,17 @@ Use the CSS custom property matching the shadow/opacity you want.
   color: var(--dark-opacity-1);
 }
 ```
-/!\ Require PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
+Aaaaand that's it!
+
+Note : You'll need PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
+
+### CSS
+
+Add the following link in your html file.
+```html
+<link href="path/to/module/material-utilities.min.css" rel="stylesheet" type="text/css">
+```
+And you're ready to go!
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)

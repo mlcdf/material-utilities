@@ -1,7 +1,7 @@
-/* 
+/*
   MATERIAL UTILITIES
-  https://github.com/mlcdf/material-utilities  
+  https://github.com/mlcdf/material-utilities
 */
 
-@import './classes';
 @import './variables';
+@import './classes';

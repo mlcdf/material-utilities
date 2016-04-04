@@ -1,13 +1,13 @@
 {
   "name": "material-utilities",
   "description": "A set of CSS classes & custom properties for Material shadows and opacities",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "author": "Maxime Le Conte des Floris",
   "license": "MIT",
   "main": "material-utilities.css",
-	"scripts": {
-		 "start" : "postcss --use postcss-import --use postcss-custom-properties --use autoprefixer -o dist/material-utilities.css src/material-utilities.css && postcss --use postcss-import --use postcss-custom-properties --use autoprefixer --use cssnano -o dist/material-utilities.min.css src/material-utilities.css"
-	},
+  "scripts": {
+    "start": "postcss --use postcss-import --use postcss-custom-properties --use autoprefixer -o dist/material-utilities.css src/material-utilities.css && postcss --use postcss-import --use postcss-custom-properties --use autoprefixer --use cssnano -o dist/material-utilities.min.css src/material-utilities.css"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mlcdf/material-utilities.git"

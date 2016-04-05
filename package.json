@@ -1,7 +1,7 @@
 {
   "name": "material-utilities",
   "description": "A set of CSS classes & custom properties for Material shadows and opacities",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "author": "Maxime Le Conte des Floris",
   "license": "MIT",
   "main": "material-utilities.css",

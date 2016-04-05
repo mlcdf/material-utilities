@@ -23,7 +23,7 @@ Import the module.
 Use the CSS custom property matching the shadow/opacity you want.
 ```css
 .card{
-  box-shadow: var(--z1);
+  box-shadow: var(--shadow-1);
 }
 .divider{
   color: var(--dark-opacity-1);
@@ -40,7 +40,7 @@ Just add the following link in your html.
 ```
 Use the CSS custom property matching the shadow/opacity you want.
 ```html
-<button class="z1">Download</button>
+<button class="shadow-1 shadow-transition shadow-5-hover">Download</button>
 ```
 ## Dev
 

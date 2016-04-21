@@ -17,7 +17,7 @@ Reminder: use the `--production` flag to only install the "dependencies" (so wit
 
 Import the module.
 ```css
-@import "material-utilities.css";
+@import "material-utilities/src/material-utilities.css";
 ```
 
 Use the CSS custom property matching the shadow/opacity you want.

@@ -1,7 +1,10 @@
 # Material Utilities
 
-A set of CSS custom variables and classes to bring Material shadows and opacities to your project. If you're looking for the Material color palette, head over to https://github.com/shuhei/material-colors.
+> A set of CSS custom variables & classes to bring Material shadows and opacities to your project.
 
+![](screenshot.png)
+
+If you're looking for the Material color palette, head over to https://github.com/shuhei/material-colors.
 Inspired by [colors](https://github.com/mrmrs/colors).
 
 ## Install
@@ -30,7 +33,7 @@ Use the CSS custom property matching the shadow/opacity you want.
 }
 ```
 
-Note : You'll need PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
+Note: You'll need PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
 
 ### CSS
 

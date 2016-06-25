@@ -10,7 +10,7 @@ Inspired by [colors](https://github.com/mrmrs/colors).
 ## Install
 
 * Download the [.zip](https://github.com/mlcdf/material-utilities/archive/master.zip)
-* NPM: `npm install material-utitilies`
+* npm: `npm install material-utitilies`
 
 Reminder: use the `--production` flag to only install the "dependencies" (so without the "devDependencies").
 

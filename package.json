@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "/src/material-utilities.css",
   "scripts": {
-    "start": "postcss --use postcss-import --use postcss-custom-properties --use autoprefixer -o dist/material-utilities.css src/material-utilities.css && postcss --use postcss-import --use postcss-custom-properties --use autoprefixer --use cssnano -o dist/material-utilities.min.css src/material-utilities.css"
+    "start": "node build"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,11 @@
     "PostCSS"
   ],
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "cssnano": "^3.5.2",
-    "postcss-cli": "^2.5.1",
-    "postcss-custom-properties": "^5.0.0",
-    "postcss-import": "^8.0.2"
+    "autoprefixer": "^6.5.0",
+    "css-scss": "^0.1.0",
+    "cssnano": "^3.7.6",
+    "postcss": "^5.2.4",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.1.2"
   }
 }

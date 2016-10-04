@@ -1,0 +1,92 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+  CLASSES
+  - Opacities
+  - Shadows
+*/
+
+
+/* Opacities */
+
+.dark-opacity-1{
+  opacity: $dark-opacity-1;
+}
+.dark-opacity-2{
+  opacity: $dark-opacity-2;
+}
+.dark-opacity-3{
+  opacity: $dark-opacity-3;
+}
+.dark-opacity-4{
+  opacity: $dark-opacity-4;
+}
+
+.light-opacity-1{
+  opacity: $light-opacity-1;
+}
+.light-opacity-2{
+  opacity: $light-opacity-2;
+}
+.light-opacity-3{
+  opacity: $light-opacity-3;
+}
+.light-opacity-4{
+  opacity: $light-opacity-4;
+}
+
+
+/* Shadows */
+
+.shadow-transition{
+  transition: $shadow-transition;
+}
+
+.shadow-1{
+  box-shadow: $shadow-1;
+}
+.shadow-2{
+  box-shadow: $shadow-2;
+}
+.shadow-3{
+  box-shadow: $shadow-3;
+}
+.shadow-4{
+  box-shadow: $shadow-4;
+}
+.shadow-5{
+  box-shadow: $shadow-5;
+}
+.shadow-6{
+  box-shadow: $shadow-6;
+}
+.shadow-7{
+  box-shadow: $shadow-7;
+}
+
+.shadow-1-hover:hover{
+  box-shadow: $shadow-1;
+}
+.shadow-2-hover:hover{
+  box-shadow: $shadow-2;
+}
+.shadow-3-hover:hover{
+  box-shadow: $shadow-3;
+}
+.shadow-4-hover:hover{
+  box-shadow: $shadow-4;
+}
+.shadow-5-hover:hover{
+  box-shadow: $shadow-5;
+}
+.shadow-6-hover:hover{
+  box-shadow: $shadow-6;
+}
+.shadow-7-hover:hover{
+  box-shadow: $shadow-7;
+}

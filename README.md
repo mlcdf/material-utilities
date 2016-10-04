@@ -49,8 +49,10 @@ Use the CSS custom property matching the shadow/opacity you want.
 
 Running `npm start` will generate the minified and unminified CSS files in the dist folder.
 
-## License
-[MIT](http://opensource.org/licenses/MIT)
+## Contributing
 
-## Author
-Maxime Le Conte des Floris
+Remarks, advices & contributions are welcome. Feel free to open an issue or submit a pull request.
+
+## License
+
+MIT © [Maxime Le Conte des Floris](https://mlcdf.com)

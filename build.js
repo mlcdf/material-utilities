@@ -9,6 +9,12 @@ const cssnano = require('cssnano')
 const filename = 'src/material-utilities.css'
 let css = fs.readFileSync(filename, 'utf8')
 
+if (!fs.existsSync('dist')) {
+  fs.mkdirSync('dist', (err) => {
+    if (err) throw err
+  })
+}
+
 postcss([postcssImport, postcssCustomProperties, autoprefixer, cssnano])
   .process(css, {
     from: filename,

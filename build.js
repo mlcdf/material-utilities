@@ -6,18 +6,22 @@ const postcssCustomProperties = require('postcss-custom-properties')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 
-const filename = 'src/material-utilities.css'
-let css = fs.readFileSync(filename, 'utf8')
+const sourceFile = 'src/material-utilities.css'
+const css = fs.readFileSync(sourceFile, 'utf8')
 
+// Create a dist folder if it doesn't exist
 if (!fs.existsSync('dist')) {
   fs.mkdirSync('dist', (err) => {
     if (err) throw err
   })
 }
 
+/*
+ *  PostCSS => CSS
+ */
 postcss([postcssImport, postcssCustomProperties, autoprefixer, cssnano])
   .process(css, {
-    from: filename,
+    from: sourceFile,
     to: 'dist/material-utilities.min.css'
   })
   .then((result) => {
@@ -27,7 +31,7 @@ postcss([postcssImport, postcssCustomProperties, autoprefixer, cssnano])
 
 postcss([postcssImport, postcssCustomProperties, autoprefixer])
   .process(css, {
-    from: filename,
+    from: sourceFile,
     to: 'material-utilities.css'
   })
   .then((result) => {
@@ -35,12 +39,10 @@ postcss([postcssImport, postcssCustomProperties, autoprefixer])
     if (result.map) fs.writeFileSync('dist/material-utilities.css.map', result.map)
   })
 
-const modules = [
-  'classes',
-  'variables'
-]
-
-for (let module of modules) {
-  const file = fs.readFileSync('src/' + module + '.css', 'utf8')
-  fs.writeFileSync('dist/' + module + '.scss', cssscss(file))
+/*
+ *  PostCSS => SCSS
+ */
+for (let mod of ['classes', 'variables']) {
+  const file = fs.readFileSync('src/' + mod + '.css', 'utf8')
+  fs.writeFileSync('dist/' + mod + '.scss', cssscss(file))
 }

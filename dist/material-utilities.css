@@ -79,7 +79,6 @@
 /* Shadows */
 
 .shadow-transition{
-  -webkit-transition: box-shadow .28s cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow .28s cubic-bezier(0.4, 0, 0.2, 1);
 }
 

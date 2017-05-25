@@ -27,12 +27,12 @@
 
   --shadow-transition: box-shadow .28s cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* Elevation 2dp: card, raised button (resting) and search bar (resting)*/
+  /* Elevation 2dp: card, raised button (resting) and search bar (resting) */
   --shadow-1: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 1px 5px 0 rgba(0, 0, 0, 0.12),
         0 3px 1px -2px rgba(0, 0, 0, 0.2);
 
-  /* Elevation 3dp: refresh indicator and search bar (scrolled state)*/
+  /* Elevation 3dp: refresh indicator and search bar (scrolled state) */
   --shadow-2: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
         0 1px 8px 0 rgba(0, 0, 0, 0.12),
         0 3px 3px -2px rgba(0, 0, 0, 0.4);

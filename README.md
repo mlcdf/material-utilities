@@ -9,8 +9,9 @@ Inspired by [colors](https://github.com/mrmrs/colors).
 
 ## Install
 
-* Download the [.zip](https://github.com/mlcdf/material-utilities/archive/master.zip)
-* npm: `npm install material-utitilies`
+```console
+$ npm install material-utilities
+```
 
 Reminder: use the `--production` flag to only install the "dependencies" (so without the "devDependencies").
 
@@ -20,10 +21,10 @@ Reminder: use the `--production` flag to only install the "dependencies" (so wit
 
 Import the module.
 ```css
-@import "material-utilities/src/material-utilities.css";
+@import "~material-utilities/src/material-utilities.css";
 ```
 
-Use the CSS custom property matching the shadow/opacity you want.
+Use the CSS custom property matching the shadow/opacity you want
 ```css
 .card{
   box-shadow: var(--shadow-1);
@@ -35,19 +36,52 @@ Use the CSS custom property matching the shadow/opacity you want.
 
 Note: You'll need PostCSS plugins that features [CSS Custom Properties](http://www.w3.org/TR/css-variables/#defining-variables) and `@import` (like [cssnext](https://github.com/cssnext/cssnext/)).
 
+### SCSS
+
+Import the module
+```css
+@import "~material-utilities/dist/classes.scss";
+@import "~material-utilities/dist/variables.scss";
+```
+
+Use the CSS custom property matching the shadow/opacity you want
+```css
+.card{
+  box-shadow: var(--shadow-1);
+}
+.divider{
+  color: var(--dark-opacity-1);
+}
+```
+
 ### CSS
 
-Just add the following link in your html.
+Just add the following link in your html
 ```html
+<link rel="stylesheet" href="https://unpkg.com/material-utilities@0.8.2/dist/material-utilities.min.css">
+<!-- If you use a build tool like Gulp to concatenate your stylesheets, you should use 
 <link rel="stylesheet" href="path/to/module/material-utilities.min.css">
+-->
 ```
-Use the CSS custom property matching the shadow/opacity you want.
+
+Use the CSS custom property matching the shadow/opacity you want
 ```html
 <button class="shadow-1 shadow-transition shadow-5-hover">Download</button>
 ```
-## Dev
 
-Running `npm start` will generate the minified and unminified CSS files in the dist folder.
+## Development
+
+Clone the repository on your machine
+```console
+$ git clone https://github.com/mlcdf/material-utilities.git && cd material-utilities
+```
+Install local dependencies
+```console
+$ npm install
+```
+> You can start coding!
+
+Running `npm start` will generate the minified and unminified CSS files as well as the SCSS files in the dist folder.
 
 ## Contributing
 

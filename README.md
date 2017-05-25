@@ -19,7 +19,7 @@ Reminder: use the `--production` flag to only install the "dependencies" (so wit
 
 ### PostCSS
 
-Import the module.
+Import the module
 ```css
 @import "~material-utilities/src/material-utilities.css";
 ```

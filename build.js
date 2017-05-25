@@ -11,7 +11,7 @@ const css = fs.readFileSync(sourceFile, 'utf8')
 
 // Create a dist folder if it doesn't exist
 if (!fs.existsSync('dist')) {
-  fs.mkdirSync('dist', (err) => {
+  fs.mkdirSync('dist', err => {
     if (err) throw err
   })
 }
@@ -24,9 +24,11 @@ postcss([postcssImport, postcssCustomProperties, autoprefixer, cssnano])
     from: sourceFile,
     to: 'dist/material-utilities.min.css'
   })
-  .then((result) => {
+  .then(result => {
     fs.writeFileSync('dist/material-utilities.min.css', result.css)
-    if (result.map) fs.writeFileSync('material-utilities.min.css.map', result.map)
+    if (result.map) {
+      fs.writeFileSync('material-utilities.min.css.map', result.map)
+    }
   })
 
 postcss([postcssImport, postcssCustomProperties, autoprefixer])
@@ -34,9 +36,11 @@ postcss([postcssImport, postcssCustomProperties, autoprefixer])
     from: sourceFile,
     to: 'material-utilities.css'
   })
-  .then((result) => {
+  .then(result => {
     fs.writeFileSync('dist/material-utilities.css', result.css)
-    if (result.map) fs.writeFileSync('dist/material-utilities.css.map', result.map)
+    if (result.map) {
+      fs.writeFileSync('dist/material-utilities.css.map', result.map)
+    }
   })
 
 /*

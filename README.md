@@ -2,7 +2,7 @@
 
 > A set of CSS custom variables & classes to bring Material shadows and opacities to your project.
 
-[![npm](https://img.shields.io/npm/v/material-utilities.svg)]() [![npm](https://img.shields.io/npm/dt/material-utilities.svg)]() ![gzip size](http://img.badgesize.io/https://unpkg.com/material-utilities/dist/material-utilities.min.css?compression=gzip&label=gzip%20size) ![size](http://img.badgesize.io/https://unpkg.com/material-utilities/dist/material-utilities.min.css?label=size)
+[![npm](https://img.shields.io/npm/v/material-utilities.svg)](https://www.npmjs.com/package/material-utilities) [![npm](https://img.shields.io/npm/dt/material-utilities.svg)](https://www.npmjs.com/package/material-utilities) ![gzip size](http://img.badgesize.io/https://unpkg.com/material-utilities/dist/material-utilities.min.css?compression=gzip&label=gzip%20size) ![size](http://img.badgesize.io/https://unpkg.com/material-utilities/dist/material-utilities.min.css?label=size)
 
 ![SCSS snippet featuring Material Utilities](screenshot.png)
 
